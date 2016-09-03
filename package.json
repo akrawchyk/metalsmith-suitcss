@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "Metalsmith plugin to preprocess CSS files using SUITCSS.",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
-  },
   "files": [
     "lib/index.js"
   ],
@@ -30,6 +27,7 @@
   },
   "homepage": "https://github.com/jeffjewiss/metalsmith-suitcss",
   "dependencies": {
+    "debug": "^2.2.0",
     "minimatch": "^3.0.0",
     "suitcss-preprocessor": "^2.0.0"
   }
